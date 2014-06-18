@@ -105,8 +105,9 @@ class Graphs:
 
       mediainfo_in.close()
     else:
-      print str(self.sub_video_id) + ".mediainfo file missing. Incomplete or legacy results?"
-      raise Exception(str(self.sub_video_id) + ".mediainfo file missing. Incomplete or legacy results?")
+      #print str(self.sub_video_id) + ".mediainfo file missing. Incomplete or legacy results?"
+      #raise Exception(str(self.sub_video_id) + ".mediainfo file missing. Incomplete or legacy results?")
+      pass
       # sys.exit(2)
     
       
